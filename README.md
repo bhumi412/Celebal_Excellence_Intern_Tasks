@@ -1,106 +1,99 @@
-# Shopping-App-Dataset
-Dataset Cleaning  using Pandas
+# Data Engineering Internship Tasks
 
-## Data Exploration and Cleaning using Python Pandas
-
-This project demonstrates basic data exploration and cleaning using Python and Pandas on an e-commerce product dataset.
+This repository contains the assignments completed during my Data Engineering Internship, covering both Python-based data analysis and SQL-based database analysis.
 
 ---
 
-## 📌 Objective
+## Task 1 – Shopping App Dataset Analysis using Pandas
 
-The objective of this assignment is to:
+### Overview
 
-* Load a CSV dataset into a Pandas DataFrame
-* Explore and understand the dataset
-* Handle missing values
-* Perform basic data operations
-* Remove duplicate records
-* Create a derived column
-* Save the cleaned dataset as a new CSV file
+Performed data cleaning, transformation, and exploratory data analysis on an e-commerce dataset using Python and Pandas.
 
----
+### Key Activities
 
-## 🛠️ Technologies Used
+* Data Loading and Exploration
+* Missing Value Handling
+* Data Cleaning and Transformation
+* Duplicate Record Removal
+* Derived Column Creation
+* Exporting Cleaned Dataset
+
+### Tools & Technologies
 
 * Python
 * Pandas
 * Jupyter Notebook
 
----
+### Deliverables
 
-## 📂 Files Included
-
-* `Datasets-shoping-app.ipynb` → Jupyter Notebook containing complete code
-* `cleaned_dataset.csv` → Final cleaned dataset
-* `README.md` → Project documentation
+* Jupyter Notebook
+* Cleaned Dataset
+* Project Documentation
 
 ---
 
-## 📊 Tasks Performed
+## Task 2 – SQL Database Analysis (ShopEase)
 
-### 1. Data Loading
+### Overview
 
-* Loaded the dataset using Pandas
-* Handled corrupted rows using `on_bad_lines='skip'`
+Performed SQL-based analysis on an e-commerce database containing customer, product, order, and order item information.
 
-### 2. Data Exploration
+### Key Activities
 
-* Viewed dataset shape
-* Checked column names and data types
-* Displayed first and last rows
+* SQL Queries and Data Retrieval
+* Filtering and Optimization
+* Aggregation Functions
+* Joins and Relationships
+* CASE Statements
+* Transactions and ACID Concepts
 
-### 3. Missing Value Handling
+### Tools & Technologies
 
-* Identified missing values using `isnull()`
-* Removed rows with missing important seller information
-* Filled remaining missing values with appropriate defaults
+* MySQL
+* MySQL Workbench
+* SQL
 
-### 4. Data Cleaning
+### Deliverables
 
-* Cleaned `final_price` column
-* Converted string values into numeric format
+* SQL Script File
+* Query Solutions
+* Database Analysis
 
-### 5. Duplicate Removal
+---
 
-* Removed duplicate rows from the dataset
+## Skills Demonstrated
 
-### 6. Basic Operations
+* Data Cleaning
+* Data Analysis
+* SQL Query Writing
+* Relational Database Management
+* Data Transformation
+* Aggregation & Reporting
+* Database Relationships
+* Transaction Management
 
-* Filtered products based on price
-* Selected important columns
+---
 
-### 7. Derived Column Creation
+## Repository Structure
 
-* Created `quantity` column
-* Created `total_amount` column using:
+```text
+├── Task-1-Python-Data-Analysis
+│   ├── Datasets-shoping-app.ipynb
+│   ├── cleaned_dataset.csv
+│   └── README.md
 
-```python
-total_amount = final_price * quantity
+├── Task-2-SQL-Assignment
+│   ├── ShopEase_Assignment.sql
+│   └── README.md
+
+└── README.md
 ```
 
-### 8. Save Cleaned Dataset
-
-* Exported final cleaned dataset as CSV
-
 ---
 
-## ▶️ How to Run the Project
+## Author
 
-1. Open Jupyter Notebook
-2. Run all cells in `Datasets-shoping-app.ipynb`
-3. The cleaned dataset will be generated automatically
+**Bhumika Maheshwari**
 
----
-
-## ✅ Output
-
-* Cleaned dataset file (`cleaned_dataset.csv`)
-* Processed and analyzed data in Jupyter Notebook
-
----
-
-## 📎 Author
-
-Bhumika Maheshwari
 
