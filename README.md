@@ -1,6 +1,6 @@
 # Data Engineering Internship Tasks
 
-This repository contains the assignments completed during my Data Engineering Internship, covering both Python-based data analysis and SQL-based database analysis.
+This repository contains the assignments completed during my Data Engineering Internship.
 
 ---
 
