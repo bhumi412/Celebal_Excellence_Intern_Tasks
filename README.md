@@ -80,6 +80,9 @@ Performed SQL-based analysis on an e-commerce database containing customer, prod
 ```text
 Data-Engineering-Internship/
 │
+├── .gitignore
+├── README.md
+│
 ├── Task-1-Python-Data-Analysis/
 │   ├── Datasets-shoping-app.ipynb
 │   ├── cleaned_dataset.csv
@@ -87,10 +90,8 @@ Data-Engineering-Internship/
 │
 ├── Task-2-SQL-Assignment/
 │   ├── ShopEase_Assignment.sql
-│   ├── Query_Results.pdf
+│   ├── Query_Results.pdf (optional)
 │   └── README.md
-│
-└── README.md
 ```
 
 ---
