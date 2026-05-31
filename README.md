@@ -78,15 +78,18 @@ Performed SQL-based analysis on an e-commerce database containing customer, prod
 ## Repository Structure
 
 ```text
-├── Task-1-Python-Data-Analysis
+Data-Engineering-Internship/
+│
+├── Task-1-Python-Data-Analysis/
 │   ├── Datasets-shoping-app.ipynb
 │   ├── cleaned_dataset.csv
 │   └── README.md
-
-├── Task-2-SQL-Assignment
+│
+├── Task-2-SQL-Assignment/
 │   ├── ShopEase_Assignment.sql
+│   ├── Query_Results.pdf
 │   └── README.md
-
+│
 └── README.md
 ```
 
