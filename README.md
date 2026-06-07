@@ -75,23 +75,66 @@ Performed SQL-based analysis on an e-commerce database containing customer, prod
 
 ---
 
+# Task 3 – Superstore Sales Analysis using SQL
+
+## Overview
+Designed and analyzed a sales database using the Superstore dataset. Implemented database normalization, customer sales analysis, and advanced SQL techniques to generate business insights.
+
+## Key Activities
+- Imported and structured the Superstore dataset
+- Created normalized tables (Customers, Products, Orders)
+- Performed data insertion and validation
+- Implemented Subqueries
+- Used Common Table Expressions (CTEs)
+- Applied Window Functions
+- Performed Customer Sales Analysis
+- Generated business insights from sales data
+
+## SQL Concepts Used
+- SELECT DISTINCT
+- GROUP BY
+- JOIN
+- Subqueries
+- Common Table Expressions (CTEs)
+- RANK()
+- ROW_NUMBER()
+- Aggregate Functions
+
+## Analysis Performed
+- Orders with sales above average
+- Highest sales order per customer
+- Total sales by customer
+- Customers with above-average sales
+- Customer ranking based on sales
+- Top 3 customers by sales
+- Top 5 customers
+- Bottom 5 customers
+- Customers with only one order
+- Highest order value per customer
+
+## Tools & Technologies
+- MySQL
+- MySQL Workbench
+- SQL
+
+## Deliverables
+- SQL Script File
+- Query Results
+- Sales Analysis Report
+
+---
+
 ## Repository Structure
+
+
 
 ```text
 Data-Engineering-Internship/
 │
-├── .gitignore
-├── README.md
-│
 ├── Task-1-Python-Data-Analysis/
-│   ├── Datasets-shoping-app.ipynb
-│   ├── cleaned_dataset.csv
-│   └── README.md
-│
 ├── Task-2-SQL-Assignment/
-│   ├── ShopEase_Assignment.sql
-│   ├── Query_Results.pdf (optional)
-│   └── README.md
+├── Task-3-Superstore-SQL-Analysis/
+└── README.md
 ```
 
 ---
