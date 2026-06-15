@@ -123,6 +123,69 @@ Designed and analyzed a sales database using the Superstore dataset. Implemented
 - Sales Analysis Report
 
 ---
+# Task 4 – Azure Cloud Fundamentals & Azure Data Factory
+
+## Overview
+
+Learned Azure cloud fundamentals and built an end-to-end data pipeline using Azure Storage Account, Blob Storage, and Azure Data Factory (ADF). The project focused on understanding Azure resource management, cloud storage, data movement, and pipeline orchestration.
+
+## Key Activities
+
+### Azure Fundamentals
+
+* Explored Azure Portal
+* Created and managed Resource Groups
+* Understood Azure Subscription and Resource hierarchy
+* Worked with Azure Storage Accounts
+* Configured Blob Containers
+
+### Azure Data Factory
+
+* Created Azure Data Factory instance
+* Configured Linked Services
+* Created Source and Destination Datasets
+* Implemented Get Metadata Activity
+* Developed Data Copy Pipeline
+* Executed and monitored pipeline runs
+* Validated metadata before data movement
+
+### Mini Project
+
+Built a complete pipeline that:
+
+* Reads a CSV file from Azure Blob Storage
+* Performs metadata validation
+* Copies data to a destination location
+* Executes successfully through Azure Data Factory
+
+## Azure Services Used
+
+* Azure Resource Group
+* Azure Storage Account
+* Azure Blob Storage
+* Azure Data Factory (ADF)
+* Identity and Access Management (IAM)
+
+## Deliverables
+
+* Resource Group Configuration
+* Storage Account Setup
+* Linked Services and Datasets
+* Pipeline Development Screenshots
+* Pipeline Execution Results
+* Mini Project Implementation
+
+## Skills Demonstrated
+
+* Azure Cloud Fundamentals
+* Cloud Resource Management
+* Azure Storage Services
+* Data Pipeline Development
+* ETL Process Design
+* Azure Data Factory
+* Metadata Validation
+* Identity and Access Management (IAM)
+---
 
 ## Repository Structure
 
@@ -134,6 +197,7 @@ Data-Engineering-Internship/
 ├── Task-1-Python-Data-Analysis/
 ├── Task-2-SQL-Assignment/
 ├── Task-3-Superstore-SQL-Analysis/
+├── Week-4-Azure-Data-Factory/
 └── README.md
 ```
 
