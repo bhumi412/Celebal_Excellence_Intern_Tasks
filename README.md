@@ -186,7 +186,33 @@ Built a complete pipeline that:
 * Metadata Validation
 * Identity and Access Management (IAM)
 ---
+## Task 5 – Apache Spark Data Processing using PySpark
 
+### Overview
+Performed data cleaning, transformation, filtering, and aggregation on a retail sales dataset using Apache Spark (PySpark) DataFrames.
+
+### Key Activities
+- Spark DataFrame Creation and Exploration
+- Duplicate Record Removal
+- Missing Value Handling
+- Data Filtering
+- GroupBy and Aggregation Operations
+- Timestamp Conversion
+- Data Cleaning and Transformation
+- Final Processing Pipeline
+
+### Tools & Technologies
+- Python
+- Apache Spark (PySpark)
+- Google Colab
+- CSV Dataset
+
+### Deliverables
+- Google Colab Notebook
+- Retail Sales Dataset
+- Project Documentation
+
+---
 ## Repository Structure
 
 
@@ -198,6 +224,7 @@ Data-Engineering-Internship/
 ├── Task-2-SQL-Assignment/
 ├── Task-3-Superstore-SQL-Analysis/
 ├── Week-4-Azure-Data-Factory/
+├── Task-5-PySpark-DataFrame-Operation/
 └── README.md
 ```
 
