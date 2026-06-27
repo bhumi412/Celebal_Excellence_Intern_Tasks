@@ -213,6 +213,34 @@ Performed data cleaning, transformation, filtering, and aggregation on a retail 
 - Project Documentation
 
 ---
+## Task 6 – Spark Architecture and Data Processing
+
+### Overview
+Implemented Apache Spark (PySpark) DataFrame operations on an employee dataset to understand Spark architecture, data transformations, schema handling, filtering, and optimized storage formats.
+
+### Key Activities
+- Spark Session Creation
+- CSV Data Loading with Schema Inference
+- Dataset Exploration and Schema Analysis
+- Missing Value and Duplicate Record Handling
+- Data Filtering and Column Selection
+- Column Renaming and Data Type Casting
+- New Column Creation using Transformations
+- Transformations and Actions
+- Saving Data in CSV and Parquet Formats
+- Spark Architecture and Performance Concepts
+
+### Tools & Technologies
+- Python
+- Apache Spark (PySpark)
+- Google Colab
+- CSV Dataset
+
+### Deliverables
+- Google Colab Notebook
+- Employee Dataset
+
+---
 ## Repository Structure
 
 
@@ -225,6 +253,7 @@ Data-Engineering-Internship/
 ├── Task-3-Superstore-SQL-Analysis/
 ├── Week-4-Azure-Data-Factory/
 ├── Task-5-PySpark-DataFrame-Operation/
+├── Task-6-Spark-Assignment/
 └── README.md
 ```
 
